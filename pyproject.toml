@@ -1,0 +1,19 @@
+[project]
+name = "future-agi-intern-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.8.1",
+    "bitsandbytes>=0.46.1",
+    "numpy",
+    "peft>=0.16.0",
+    "torch @ https://download.pytorch.org/whl/cu118/torch-2.2.2%2Bcu118-cp310-cp310-win_amd64.whl",
+    "torchaudio @ https://download.pytorch.org/whl/cu118/torchaudio-2.2.2%2Bcu118-cp310-cp310-win_amd64.whl",
+    "torchvision @ https://download.pytorch.org/whl/cu118/torchvision-0.17.2%2Bcu118-cp310-cp310-win_amd64.whl",
+]
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
+index-url = "https://pypi.org/simple"

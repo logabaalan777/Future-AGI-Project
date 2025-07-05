@@ -1,0 +1,28 @@
+{
+    "data": [{
+            "prompt": "Solve the equation: 3x + 7 = 22",
+            "chosen": "Step 1: I'll start by isolating the variable term on one side of the equation.\n3x + 7 = 22\n\nStep 2: Subtract 7 from both sides to isolate the term with x.\n3x + 7 - 7 = 22 - 7\n3x = 15\n\nStep 3: Divide both sides by 3 to solve for x.\n3x/3 = 15/3\nx = 5\n\nStep 4: Verify the solution by substituting x = 5 back into the original equation.\n3(5) + 7 = 22\n15 + 7 = 22\n22 = 22 ✓\n\nTherefore, x = 5 is the solution to the equation 3x + 7 = 22.",
+            "rejected": "Step 1: I need to solve for x in the equation 3x + 7 = 22.\n\nStep 2: First, I'll subtract 7 from both sides.\n3x + 7 - 7 = 22 - 7\n3x = 15\n\nStep 3: Now I'll divide both sides by 3.\n3x/3 = 15/3\nx = 5\n\nWait, let me double-check this. If x = 5, then:\n3(5) + 7 = 15 + 7 = 22 ✓\n\nActually, I made a mistake earlier. Let me recalculate.\n3x = 15\nx = 15/3 = 5\n\nSo the answer is x = 5."
+        },
+        {
+            "prompt": "Find the area of a circle with radius 6 cm.",
+            "chosen": "Step 1: To find the area of a circle, I'll use the formula A = πr², where r is the radius.\n\nStep 2: Substitute the given radius r = 6 cm into the formula.\nA = π(6 cm)²\n\nStep 3: Calculate the square of the radius.\nA = π(36 cm²)\n\nStep 4: Multiply by π to find the area.\nA = 36π cm²\n\nStep 5: Using π ≈ 3.14159, I can calculate an approximate value.\nA ≈ 36 × 3.14159 cm²\nA ≈ 113.1 cm²\n\nTherefore, the area of the circle is 36π cm² or approximately 113.1 cm².",
+            "rejected": "Step 1: The area of a circle is given by the formula A = πr².\n\nStep 2: Substitute the radius r = 6 cm.\nA = π(6)²\n\nStep 3: Calculate the square of the radius.\nA = π × 36\n\nStep 4: Multiply by π.\nA = 36π\n\nStep 5: Using π = 3.14, the area is:\nA = 36 × 3.14 = 108.16 cm²\n\nTherefore, the area of the circle is 108.16 cm²."
+        },
+        {
+            "prompt": "If a triangle has sides of lengths 3, 4, and 5, what is its area?",
+            "chosen": "Step 1: I notice that this is a 3-4-5 triangle, which is a right triangle (it satisfies the Pythagorean theorem: 3² + 4² = 5²).\n\nStep 2: For a right triangle, I can use the formula Area = (1/2) × base × height.\n\nStep 3: Since this is a right triangle, I can use the two shorter sides as the base and height.\nArea = (1/2) × 3 × 4\n\nStep 4: Calculate the area.\nArea = (1/2) × 12\nArea = 6\n\nTherefore, the area of the triangle is 6 square units.",
+            "rejected": "Step 1: To find the area of a triangle with known sides, I'll use Heron's formula.\n\nStep 2: First, I need to calculate the semi-perimeter s.\ns = (a + b + c)/2\ns = (3 + 4 + 5)/2\ns = 12/2\ns = 6\n\nStep 3: Now I'll use Heron's formula: Area = √(s(s-a)(s-b)(s-c))\nArea = √(6(6-3)(6-4)(6-5))\nArea = √(6 × 3 × 2 × 1)\nArea = √(36)\nArea = 6\n\nTherefore, the area of the triangle is 6 square units.\n\nWait, I realize I could have used a simpler approach since this is a 3-4-5 right triangle. The area of a right triangle is (1/2) × base × height, so:\nArea = (1/2) × 3 × 4 = 6 square units."
+        },
+        {
+            "prompt": "Simplify the expression: 2(3x - 4) - 3(x + 2)",
+            "chosen": "Step 1: I'll expand the first parenthesis using the distributive property.\n2(3x - 4) - 3(x + 2)\n= 6x - 8 - 3(x + 2)\n\nStep 2: Now I'll expand the second parenthesis.\n6x - 8 - 3(x + 2)\n= 6x - 8 - 3x - 6\n\nStep 3: Combine like terms.\n6x - 8 - 3x - 6\n= (6x - 3x) + (-8 - 6)\n= 3x - 14\n\nTherefore, the simplified expression is 3x - 14.",
+            "rejected": "Step 1: I need to simplify 2(3x - 4) - 3(x + 2).\n\nStep 2: First, I'll distribute the coefficients.\n2(3x - 4) - 3(x + 2)\n= 6x - 8 - 3x - 6\n\nStep 3: Now I'll combine like terms.\n6x - 8 - 3x - 6\n= 6x - 3x - 8 - 6\n= 3x - 14\n\nWait, let me double-check this.\n2(3x - 4) = 6x - 8 ✓\n-3(x + 2) = -3x - 6 ✓\n6x - 8 - 3x - 6 = 3x - 14 ✓\n\nSo the simplified expression is 3x - 14."
+        },
+        {
+            "prompt": "A store is offering a 15% discount on all items. If a shirt originally costs $40, what is the sale price?",
+            "chosen": "Step 1: To find the sale price, I need to subtract the discount amount from the original price.\n\nStep 2: Calculate the discount amount by multiplying the original price by the discount percentage.\nDiscount = Original price × Discount percentage\nDiscount = $40 × 15%\nDiscount = $40 × 0.15\nDiscount = $6\n\nStep 3: Subtract the discount amount from the original price to find the sale price.\nSale price = Original price - Discount\nSale price = $40 - $6\nSale price = $34\n\nTherefore, the sale price of the shirt is $34.",
+            "rejected": "Step 1: I need to find the sale price after a 15% discount on a $40 shirt.\n\nStep 2: I'll calculate the discount amount.\nDiscount = 15% of $40\nDiscount = 0.15 × $40\nDiscount = $6\n\nStep 3: Subtract the discount from the original price.\nSale price = $40 - $6\nSale price = $34\n\nActually, let me try another approach to verify.\nSale price = Original price × (1 - Discount percentage)\nSale price = $40 × (1 - 0.15)\nSale price = $40 × 0.85\nSale price = $34\n\nSo the sale price is $34."
+        }
+    ]
+}
