@@ -1,0 +1,10 @@
+{
+  "step_beta": 0.1,
+  "outcome_beta": 0.5,
+  "aggregation_strategy": "weighted_sum",
+  "step_weights": null,
+  "max_steps": 8,
+  "step_delimiter": "Step",
+  "step_loss_weight": 1.0,
+  "outcome_loss_weight": 1.0
+}
