@@ -61,9 +61,6 @@ stepwise-dpo/
 │   ├── train_with_jsonl.py          # Training with JSONL data
 │   ├── compare_aggregation_strategies.py  # Compare different strategies
 │   ├── prepare_data.py              # Data preparation utilities
-│   └── evaluate_stepwise_dpo.py     # Evaluation utilities
-├── experiments/             # Experiment notebooks and results
-│   └── stepwise_dpo_tutorial.ipynb  # Tutorial notebook
 ├── docs/                    # Documentation
 │   ├── architecture.md             # Overall architecture
 │   ├── reward_aggregation.md       # Aggregation strategies
